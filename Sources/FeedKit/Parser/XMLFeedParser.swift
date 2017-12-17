@@ -51,7 +51,7 @@ class XMLFeedParser: NSObject, XMLParserDelegate, FeedParserProtocol {
         super.init()
         self.xmlParser.delegate = self
     }
-
+    
     /// The current path along the XML's DOM elements. Path components are
     /// updated to reflect the current XML element being parsed.
     /// e.g. "/rss/channel/title" means it's currently parsing the channels
@@ -60,6 +60,8 @@ class XMLFeedParser: NSObject, XMLParserDelegate, FeedParserProtocol {
     
     /// A parsing error, if any.
     var parsingError: NSError?
+    
+    var didAbortByChoice = false
     
     /// Starts parsing the feed.
     func parse() -> Result {
@@ -112,7 +114,7 @@ class XMLFeedParser: NSObject, XMLParserDelegate, FeedParserProtocol {
 // MARK: - XMLParser delegate
 
 extension XMLFeedParser {
-
+    
     func parser(
         _ parser: XMLParser,
         didStartElement elementName: String,
@@ -153,6 +155,11 @@ extension XMLFeedParser {
             }
             if let path = RSSPath(rawValue: self.currentXMLDOMPath.absoluteString) {
                 self.rssFeed?.map(attributeDict, for: path)
+                if self.rssFeed?.items?.count ?? 0 > 5 {
+                    didAbortByChoice = true
+                    parser.abortParsing()
+                }
+                
             }
             
         }
@@ -184,7 +191,12 @@ extension XMLFeedParser {
     }
     
     func parser(_ parser: XMLParser, parseErrorOccurred parseError: Error) {
-        self.parsingError = NSError(domain: parseError.localizedDescription, code: -1)
+        if didAbortByChoice != true {
+            
+            self.parsingError = NSError(domain: parseError.localizedDescription, code: -1)
+        }
     }
     
 }
+
+
