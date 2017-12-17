@@ -239,6 +239,34 @@ extension RSSFeed {
             default: break
                 
             }
+        case
+            .rssChannelItemCalEnd,
+            .rssChannelItemCalStart,
+            .rssChannelItemCalLocationVcardFn,
+            .rssChannelItemCalLocation:
+            
+            if  self.items?.last?.cal == nil {
+                self.items?.last?.cal = CalNamespace()
+            }
+            switch path {
+                
+            case .rssChannelItemCalLocationVcardFn:
+                
+                if  self.items?.last?.cal?.calLocation == nil {
+                    self.items?.last?.cal?.calLocation = CalLocation()
+                    
+                }
+                
+                self.items?.last?.cal?.calLocation?.vcardFn = attributes["fn"]
+            case .rssChannelItemCalStart:
+                
+                self.items?.last?.cal?.calDtstart = attributes["dtstart"]
+            case .rssChannelItemCalEnd:
+                
+                self.items?.last?.cal?.calDtend = attributes["dtend"]
+            default: break
+            }
+            
             
             // MARK: Media
             
