@@ -144,6 +144,11 @@ extension RSSFeed {
         case .rssChannelItemMediaScenesMediaSceneSceneDescription:  self.items?.last?.media?.mediaScenes?.last?.sceneDescription    = self.items?.last?.media?.mediaScenes?.last?.sceneDescription?.appending(string) ?? string
         case .rssChannelItemMediaScenesMediaSceneSceneStartTime:    self.items?.last?.media?.mediaScenes?.last?.sceneStartTime      = string.toDuration()
         case .rssChannelItemMediaScenesMediaSceneSceneEndTime:      self.items?.last?.media?.mediaScenes?.last?.sceneEndTime        = string.toDuration()
+            
+            
+            case .rssChannelItemCalLocationVcardFn:            self.items?.last?.cal?.calLocation?.vcardFn = string
+        case .rssChannelItemCalStart: self.items?.last?.cal?.calDtstart = string.toDate(from: .iso8601)
+        case .rssChannelItemCalEnd: self.items?.last?.cal?.calDtend = string.toDate(from: .iso8601)
         default: break
         }
         

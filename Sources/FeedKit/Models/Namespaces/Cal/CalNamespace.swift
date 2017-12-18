@@ -33,8 +33,8 @@ public class CalLocation {
 
 public class CalNamespace {
     
-    public var calDtstart: String?
-    public var calDtend: String?
+    public var calDtstart: Date?
+    public var calDtend: Date?
     public var calLocation: CalLocation?
     
 

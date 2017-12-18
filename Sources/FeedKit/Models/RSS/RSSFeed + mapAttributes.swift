@@ -256,14 +256,6 @@ extension RSSFeed {
                     self.items?.last?.cal?.calLocation = CalLocation()
                     
                 }
-                
-                self.items?.last?.cal?.calLocation?.vcardFn = attributes["fn"]
-            case .rssChannelItemCalStart:
-                
-                self.items?.last?.cal?.calDtstart = attributes["dtstart"]
-            case .rssChannelItemCalEnd:
-                
-                self.items?.last?.cal?.calDtend = attributes["dtend"]
             default: break
             }
             
