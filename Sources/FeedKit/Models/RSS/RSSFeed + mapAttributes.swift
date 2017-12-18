@@ -25,7 +25,7 @@
 import Foundation
 
 extension RSSFeed {
-
+    
     /// Maps the attributes of the specified dictionary for a given `RSSPath`
     /// to the `RSSFeed` model,
     ///
@@ -33,97 +33,97 @@ extension RSSFeed {
     ///   - attributes: The attribute dictionary to map to the model.
     ///   - path: The path of feed's element.
     func map(_ attributes: [String : String], for path: RSSPath) {
-
+        
         switch path {
             
         case .rssChannelItem:
-
+            
             if  self.items == nil {
                 self.items = []
             }
-
+            
             self.items?.append(RSSFeedItem())
-
+            
         case .rssChannelImage:
-
+            
             if  self.image == nil {
                 self.image = RSSFeedImage()
             }
-
+            
         case .rssChannelSkipDays:
-
+            
             if  self.skipDays == nil {
                 self.skipDays = []
             }
-
+            
         case .rssChannelSkipHours:
-
+            
             if  self.skipHours == nil {
                 self.skipHours = []
             }
-
+            
         case .rssChannelTextInput:
-
+            
             if  self.textInput == nil {
                 self.textInput = RSSFeedTextInput()
             }
-
+            
         case .rssChannelCategory:
-
+            
             if  self.categories == nil {
                 self.categories = []
             }
-
+            
             self.categories?.append(RSSFeedCategory(attributes: attributes))
-
+            
         case .rssChannelCloud:
-
+            
             if  self.cloud == nil {
                 self.cloud = RSSFeedCloud(attributes: attributes)
             }
-
+            
         case .rssChannelItemCategory:
-
+            
             if  self.items?.last?.categories == nil {
                 self.items?.last?.categories = []
             }
-
+            
             self.items?.last?.categories?.append(RSSFeedItemCategory(attributes: attributes))
-
+            
         case .rssChannelItemEnclosure:
-
+            
             if  self.items?.last?.enclosure == nil {
                 self.items?.last?.enclosure = RSSFeedItemEnclosure(attributes: attributes)
             }
-
+            
         case .rssChannelItemGUID:
-
+            
             if  self.items?.last?.guid == nil {
                 self.items?.last?.guid = RSSFeedItemGUID(attributes: attributes)
             }
-
+            
         case .rssChannelItemSource:
-
+            
             if  self.items?.last?.source == nil {
                 self.items?.last?.source = RSSFeedItemSource(attributes: attributes)
             }
-
+            
         case .rssChannelItemContentEncoded:
-
+            
             if  self.items?.last?.content == nil {
                 self.items?.last?.content = ContentNamespace()
             }
-
-
+            
+            
         case
         .rssChannelSyndicationUpdateBase,
         .rssChannelSyndicationUpdatePeriod,
         .rssChannelSyndicationUpdateFrequency:
-
+            
             if  self.syndication == nil {
                 self.syndication = SyndicationNamespace()
             }
-
+            
         case
         .rssChannelDublinCoreTitle,
         .rssChannelDublinCoreCreator,
@@ -140,11 +140,11 @@ extension RSSFeed {
         .rssChannelDublinCoreRelation,
         .rssChannelDublinCoreCoverage,
         .rssChannelDublinCoreRights:
-
+            
             if  self.dublinCore == nil {
                 self.dublinCore = DublinCoreNamespace()
             }
-
+            
         case
         .rssChannelItemDublinCoreTitle,
         .rssChannelItemDublinCoreCreator,
@@ -161,11 +161,11 @@ extension RSSFeed {
         .rssChannelItemDublinCoreRelation,
         .rssChannelItemDublinCoreCoverage,
         .rssChannelItemDublinCoreRights:
-
+            
             if  self.items?.last?.dublinCore == nil {
                 self.items?.last?.dublinCore = DublinCoreNamespace()
             }
-
+            
         case
         .rssChannelItunesAuthor,
         .rssChannelItunesBlock,
@@ -181,11 +181,11 @@ extension RSSFeed {
         .rssChannelItunesSubtitle,
         .rssChannelItunesSummary,
         .rssChannelItunesKeywords:
-
+            
             if  self.iTunes == nil {
                 self.iTunes = ITunesNamespace()
             }
-
+            
             switch path {
                 
             case .rssChannelItunesCategory:
@@ -195,15 +195,15 @@ extension RSSFeed {
                 }
                 
                 self.iTunes?.iTunesCategories?.append(ITunesCategory(attributes: attributes))
-
+                
             case .rssChannelItunesSubcategory:
                 
                 self.iTunes?.iTunesCategories?.last?.subcategory = ITunesSubCategory(attributes: attributes)
-
+                
             case .rssChannelItunesImage:
                 
                 self.iTunes?.iTunesImage = ITunesImage(attributes: attributes)
-
+                
             case .rssChannelItunesOwner:
                 
                 if  self.iTunes?.iTunesOwner == nil {
@@ -213,7 +213,7 @@ extension RSSFeed {
             default: break
                 
             }
-
+            
         case
         .rssChannelItemItunesAuthor,
         .rssChannelItemItunesBlock,
@@ -229,7 +229,7 @@ extension RSSFeed {
             if  self.items?.last?.iTunes == nil {
                 self.items?.last?.iTunes = ITunesNamespace()
             }
-
+            
             switch path {
                 
             case .rssChannelItemItunesImage:
@@ -240,10 +240,10 @@ extension RSSFeed {
                 
             }
         case
-            .rssChannelItemCalEnd,
-            .rssChannelItemCalStart,
-            .rssChannelItemCalLocationVcardFn,
-            .rssChannelItemCalLocation:
+        .rssChannelItemCalEnd,
+        .rssChannelItemCalStart,
+        .rssChannelItemCalLocationVcardFn,
+        .rssChannelItemCalLocation:
             
             if  self.items?.last?.cal == nil {
                 self.items?.last?.cal = CalNamespace()
@@ -256,14 +256,6 @@ extension RSSFeed {
                     self.items?.last?.cal?.calLocation = CalLocation()
                     
                 }
-                
-                self.items?.last?.cal?.calLocation?.vcardFn = attributes["fn"]
-            case .rssChannelItemCalStart:
-                
-                self.items?.last?.cal?.calDtstart = attributes["dtstart"]
-            case .rssChannelItemCalEnd:
-                
-                self.items?.last?.cal?.calDtend = attributes["dtend"]
             default: break
             }
             
@@ -474,7 +466,7 @@ extension RSSFeed {
             default: break
                 
             }
-
+            
             
         default: break
             
@@ -491,9 +483,9 @@ extension RSSFeed {
     ///   - attributes: The attribute dictionary to map to the model.
     ///   - path: The path of feed's element.
     func map(_ attributes: [String : String], for path: RDFPath) {
-    
-        switch path {
         
+        switch path {
+            
         case .rdfItem:
             if  self.items == nil {
                 self.items = []
@@ -558,3 +550,4 @@ extension RSSFeed {
     }
     
 }
+
