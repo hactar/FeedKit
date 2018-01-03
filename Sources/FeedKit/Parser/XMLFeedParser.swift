@@ -123,12 +123,17 @@ extension XMLFeedParser {
         attributes attributeDict: [String : String])
     {
         
+        var fixedElementName = elementName
+        #if os(Linux)
+            fixedElementName = elementName.components(separatedBy: ":").reversed().joined(separator: ":")
+        #endif
+        
         // Update the current path along the XML's DOM elements by appending the new component with `elementName`.
-        self.currentXMLDOMPath = self.currentXMLDOMPath.appendingPathComponent(elementName)
+        self.currentXMLDOMPath = self.currentXMLDOMPath.appendingPathComponent(fixedElementName)
         
         // Get the feed type from the element, if it hasn't been done yet.
         guard let feedType = self.feedType else {
-            self.feedType = XMLFeedType(rawValue: elementName)
+            self.feedType = XMLFeedType(rawValue: fixedElementName)
             return
         }
         
