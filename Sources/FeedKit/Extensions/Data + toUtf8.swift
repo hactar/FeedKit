@@ -1,5 +1,5 @@
 //
-//  AppDelegate.swift
+//  String + toUtf8.swift
 //
 //  Copyright (c) 2016 - 2018 Nuno Manuel Dias
 //
@@ -22,20 +22,17 @@
 //  SOFTWARE.
 //
 
-import Cocoa
+import Foundation
 
-@NSApplicationMain
-class AppDelegate: NSObject, NSApplicationDelegate {
+extension Data {
 
+    /// Detect encoding and convert data to UTF-8
+    func toUtf8() -> Data? {
+        var convertedString: NSString?
+        let encoding = NSString.stringEncoding(for: self, encodingOptions: nil, convertedString: &convertedString, usedLossyConversion: nil)
+        
+        guard let str = NSString(data: self, encoding: encoding) as String? else { return nil }
+        return str.data(using: .utf8)
+    }
     
-    func applicationDidFinishLaunching(_ aNotification: Notification) {
-        // Insert code here to initialize your application
-    }
-
-    func applicationWillTerminate(_ aNotification: Notification) {
-        // Insert code here to tear down your application
-    }
-
-
 }
-
