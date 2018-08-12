@@ -1,7 +1,7 @@
 //
 //  RSSPath.swift
 //
-//  Copyright (c) 2017 Nuno Manuel Dias
+//  Copyright (c) 2016 - 2018 Nuno Manuel Dias
 //
 //  Permission is hereby granted, free of charge, to any person obtaining a copy
 //  of this software and associated documentation files (the "Software"), to deal
@@ -133,6 +133,7 @@ enum RSSPath: String {
     case rssChannelItunesSubtitle                               = "/rss/channel/itunes:subtitle"
     case rssChannelItunesSummary                                = "/rss/channel/itunes:summary"
     case rssChannelItunesKeywords                               = "/rss/channel/itunes:keywords"
+    case rssChannelItunesType                                   = "/rss/channel/itunes:type"
     
     case rssChannelItemItunesAuthor                             = "/rss/channel/item/itunes:author"
     case rssChannelItemItunesBlock                              = "/rss/channel/item/itunes:block"
@@ -144,6 +145,9 @@ enum RSSPath: String {
     case rssChannelItemItunesSubtitle                           = "/rss/channel/item/itunes:subtitle"
     case rssChannelItemItunesSummary                            = "/rss/channel/item/itunes:summary"
     case rssChannelItemItunesKeywords                           = "/rss/channel/item/itunes:keywords"
+    case rssChannelItemItunesEpisodeType                        = "/rss/channel/item/itunes:episodeType"
+    case rssChannelItemItunesSeason                             = "/rss/channel/item/itunes:season"
+    case rssChannelItemItunesEpisode                            = "/rss/channel/item/itunes:episode"
     
     // MARK: Media
     

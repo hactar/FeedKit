@@ -1,5 +1,5 @@
 //
-//  AppDelegate.swift
+//  FeedUriSchemeSanitizerTests.swift
 //
 //  Copyright (c) 2016 - 2018 Nuno Manuel Dias
 //
@@ -22,20 +22,23 @@
 //  SOFTWARE.
 //
 
-import Cocoa
+import XCTest
+@testable import FeedKit
 
-@NSApplicationMain
-class AppDelegate: NSObject, NSApplicationDelegate {
-
+class FeedUriSchemeSanitizerTests: XCTestCase {
     
-    func applicationDidFinishLaunching(_ aNotification: Notification) {
-        // Insert code here to initialize your application
+    func testFeedUriSchemeSanitizer() {
+        
+        // Given
+        let feedURL = URL(string: "feed://images.apple.com/main/rss/hotnews/hotnews.rss")!
+        let parser = FeedParser(URL: feedURL)
+        
+        // When
+        let feed = parser.parse().rssFeed
+        
+        // Then
+        XCTAssertNotNil(feed)
+        
     }
-
-    func applicationWillTerminate(_ aNotification: Notification) {
-        // Insert code here to tear down your application
-    }
-
-
+    
 }
-

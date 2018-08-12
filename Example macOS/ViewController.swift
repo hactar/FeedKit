@@ -1,7 +1,7 @@
 //
 //  ViewController.swift
 //
-//  Copyright (c) 2017 Nuno Manuel Dias
+//  Copyright (c) 2016 - 2018 Nuno Manuel Dias
 //
 //  Permission is hereby granted, free of charge, to any person obtaining a copy
 //  of this software and associated documentation files (the "Software"), to deal
@@ -38,7 +38,7 @@ class ViewController: NSViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let result = FeedParser(URL: feedURL)!.parse()
+        let result = FeedParser(URL: feedURL).parse()
         self.feed = result.rssFeed
         self.feedItemsTableView.reloadData()
         
