@@ -137,7 +137,6 @@ extension XMLFeedParser {
         #if os(Linux)
             fixedElementName = elementName.components(separatedBy: ":").reversed().joined(separator: ":")
         #endif
-        
         // Update the current path along the XML's DOM elements by appending the new component with `elementName`.
         self.currentXMLDOMPath = self.currentXMLDOMPath.appendingPathComponent(fixedElementName)
         
@@ -210,9 +209,12 @@ extension XMLFeedParser {
     }
     
     func parser(_ parser: XMLParser, parseErrorOccurred parseError: Error) {
-        if didAbortByChoice != true {
+        let typedError = parseError as! NSError
+        if didAbortByChoice != true && typedError.code != 512 {
             
             self.parsingError = NSError(domain: parseError.localizedDescription, code: -1)
+        } else {
+            return
         }
         // Ignore errors that occur after a feed is successfully parsed. Some
         // real-world feeds contain junk such as "[]" after the XML segment;

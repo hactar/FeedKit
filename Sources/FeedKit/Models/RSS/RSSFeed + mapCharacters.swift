@@ -153,8 +153,11 @@ extension RSSFeed {
 
                 case .rssChannelItemCalLocationVcardFn:            self.items?.last?.cal?.calLocation?.vcardFn = self.items?.last?.cal?.calLocation?.vcardFn?.appending(string) ?? string
 
-        case .rssChannelItemCalStart: self.items?.last?.cal?.calDtstart = string.toDate(from: .iso8601)
-        case .rssChannelItemCalEnd: self.items?.last?.cal?.calDtend = string.toDate(from: .iso8601)
+        case .rssChannelItemCalStart:
+            print("START DATE string \(string) and result is \(string.toDate(from: .iso8601))")
+            self.items?.last?.cal?.calDtstart = string.toDate(from: .iso8601)
+        case .rssChannelItemCalEnd:
+            self.items?.last?.cal?.calDtend = string.toDate(from: .iso8601)
         default: break
         }
         

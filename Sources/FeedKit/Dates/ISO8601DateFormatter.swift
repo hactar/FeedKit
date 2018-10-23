@@ -29,10 +29,13 @@ import Foundation
 class ISO8601DateFormatter: DateFormatter {
     
     let dateFormats = [
-        "yyyy-mm-dd'T'hh:mm",
-        "yyyy-MM-dd'T'HH:mm:ssZZZZZ",
         "yyyy-MM-dd'T'HH:mm:ss.SSZZZZZ",
-        "yyyy-MM-dd'T'HH:mmSSZZZZZ"
+        "yyyy-MM-dd'T'HH:mm:ssZZZZZ",
+        "yyyy-MM-dd'T'HH:mmSSZZZZZ",
+        "yyyy-MM-dd'T'HH:mm"
+        
+        
+        
         ]
     
     override init() {
@@ -49,7 +52,9 @@ class ISO8601DateFormatter: DateFormatter {
         let string = string.trimmingCharacters(in: .whitespacesAndNewlines)
         for dateFormat in self.dateFormats {
             self.dateFormat = dateFormat
+            print("trying \(dateFormat) ")
             if let date = super.date(from: string) {
+                print("date format worked.")
                 return date
             }
         }

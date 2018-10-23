@@ -66,29 +66,24 @@ public class FeedParser {
         if let url = url {
             // The `Data(contentsOf:)` initializer doesn't handle the `feed` URI scheme. As such,
             // it's sanitized first, in case it's in fact a `feed` scheme.
-            guard let sanitizedSchemeUrl = url.replacing(scheme: "feed", with: "http") else {
-                return Result.failure(ParserError.internalError(reason: "Failed url sanitizing.").value)
-            }
 
             do {
-                data = try Data(contentsOf: sanitizedSchemeUrl)
+                data = try Data(contentsOf: url)
             } catch {
-                return Result.failure(error as NSError)
+                return Result.failure(error as! NSError)
             }
         }
         
         if let data = data {
-            guard let decoded = data.toUtf8() else {
-                return Result.failure(ParserError.internalError(reason: "Failed conversion to utf8 encoding.").value)
-            }
+
             
-            guard let feedDataType = FeedDataType(data: decoded) else {
+            guard let feedDataType = FeedDataType(data: data) else {
                 return Result.failure(ParserError.feedNotFound.value)
             }
             
             switch feedDataType {
-            case .json: parser = JSONFeedParser(data: decoded)
-            case .xml:  parser = XMLFeedParser(data: decoded)
+            case .json: parser = JSONFeedParser(data: data)
+            case .xml:  parser = XMLFeedParser(data: data)
             }
             
             return parser!.parse()
