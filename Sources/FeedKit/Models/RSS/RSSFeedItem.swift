@@ -194,6 +194,8 @@ public class RSSFeedItem {
     public var media: MediaNamespace?
     
     public var cal: CalNamespace?
+    public init() { }
+    
 }
 
 // MARK: - Equatable

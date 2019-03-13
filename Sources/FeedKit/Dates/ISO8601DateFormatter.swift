@@ -33,9 +33,6 @@ class ISO8601DateFormatter: DateFormatter {
         "yyyy-MM-dd'T'HH:mm:ssZZZZZ",
         "yyyy-MM-dd'T'HH:mmSSZZZZZ",
         "yyyy-MM-dd'T'HH:mm"
-        
-        
-        
         ]
     
     override init() {
