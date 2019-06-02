@@ -49,9 +49,7 @@ class ISO8601DateFormatter: DateFormatter {
         let string = string.trimmingCharacters(in: .whitespacesAndNewlines)
         for dateFormat in self.dateFormats {
             self.dateFormat = dateFormat
-            print("trying \(dateFormat) ")
             if let date = super.date(from: string) {
-                print("date format worked.")
                 return date
             }
         }
