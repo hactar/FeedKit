@@ -7,16 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		83E6935A1FB3B3AE009A91C4 /* Data + toUtf8.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E693591FB3B3AD009A91C4 /* Data + toUtf8.swift */; };
-		83E6935B1FB3B3B5009A91C4 /* Data + toUtf8.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E693591FB3B3AD009A91C4 /* Data + toUtf8.swift */; };
-		83E6935C1FB3B3B5009A91C4 /* Data + toUtf8.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E693591FB3B3AD009A91C4 /* Data + toUtf8.swift */; };
-		83E6935D1FB3B3B6009A91C4 /* Data + toUtf8.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E693591FB3B3AD009A91C4 /* Data + toUtf8.swift */; };
 		A01F67A01D1692B20038910F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A01F679C1D16922D0038910F /* ViewController.swift */; };
 		A01F67A11D16931A0038910F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A01F67991D1691510038910F /* Main.storyboard */; };
-		A081C41921C14B04001BC29C /* Date + codingStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = A081C41821C14B04001BC29C /* Date + codingStrategy.swift */; };
-		A081C41A21C14B1E001BC29C /* Date + codingStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = A081C41821C14B04001BC29C /* Date + codingStrategy.swift */; };
-		A081C41B21C14B1E001BC29C /* Date + codingStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = A081C41821C14B04001BC29C /* Date + codingStrategy.swift */; };
-		A081C41C21C14B1E001BC29C /* Date + codingStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = A081C41821C14B04001BC29C /* Date + codingStrategy.swift */; };
 		A09AFB3A1EEFDFF40076ACC7 /* AtomTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A09AFB2E1EEFDFF40076ACC7 /* AtomTests.swift */; };
 		A09AFB3B1EEFDFF40076ACC7 /* AtomTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A09AFB2E1EEFDFF40076ACC7 /* AtomTests.swift */; };
 		A09AFB3C1EEFDFF40076ACC7 /* AtomTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A09AFB2E1EEFDFF40076ACC7 /* AtomTests.swift */; };
@@ -161,7 +153,7 @@
 		A0F6B8821F6E6EB800220625 /* FeedParserProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F6B8241F6E6E9600220625 /* FeedParserProtocol.swift */; };
 		A0F6B8831F6E6EB800220625 /* JSONFeedParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F6B8251F6E6E9600220625 /* JSONFeedParser.swift */; };
 		A0F6B8841F6E6EB800220625 /* ParserError.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F6B8261F6E6E9600220625 /* ParserError.swift */; };
-		A0F6B8851F6E6EB800220625 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F6B8271F6E6E9600220625 /* Result.swift */; };
+		A0F6B8851F6E6EB800220625 /* Feed.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F6B8271F6E6E9600220625 /* Feed.swift */; };
 		A0F6B8861F6E6EB800220625 /* XMLFeedParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F6B8281F6E6E9600220625 /* XMLFeedParser.swift */; };
 		A0F6B8871F6E6EB800220625 /* XMLFeedType.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F6B8291F6E6E9600220625 /* XMLFeedType.swift */; };
 		A0F6B8881F6E6EBA00220625 /* DateSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F6B7C21F6E6E9600220625 /* DateSpec.swift */; };
@@ -253,7 +245,7 @@
 		A0F6B8DE1F6E6EBA00220625 /* FeedParserProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F6B8241F6E6E9600220625 /* FeedParserProtocol.swift */; };
 		A0F6B8DF1F6E6EBA00220625 /* JSONFeedParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F6B8251F6E6E9600220625 /* JSONFeedParser.swift */; };
 		A0F6B8E01F6E6EBA00220625 /* ParserError.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F6B8261F6E6E9600220625 /* ParserError.swift */; };
-		A0F6B8E11F6E6EBA00220625 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F6B8271F6E6E9600220625 /* Result.swift */; };
+		A0F6B8E11F6E6EBA00220625 /* Feed.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F6B8271F6E6E9600220625 /* Feed.swift */; };
 		A0F6B8E21F6E6EBA00220625 /* XMLFeedParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F6B8281F6E6E9600220625 /* XMLFeedParser.swift */; };
 		A0F6B8E31F6E6EBA00220625 /* XMLFeedType.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F6B8291F6E6E9600220625 /* XMLFeedType.swift */; };
 		A0F6B8E41F6E6EBA00220625 /* DateSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F6B7C21F6E6E9600220625 /* DateSpec.swift */; };
@@ -345,7 +337,7 @@
 		A0F6B93A1F6E6EBB00220625 /* FeedParserProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F6B8241F6E6E9600220625 /* FeedParserProtocol.swift */; };
 		A0F6B93B1F6E6EBB00220625 /* JSONFeedParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F6B8251F6E6E9600220625 /* JSONFeedParser.swift */; };
 		A0F6B93C1F6E6EBB00220625 /* ParserError.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F6B8261F6E6E9600220625 /* ParserError.swift */; };
-		A0F6B93D1F6E6EBB00220625 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F6B8271F6E6E9600220625 /* Result.swift */; };
+		A0F6B93D1F6E6EBB00220625 /* Feed.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F6B8271F6E6E9600220625 /* Feed.swift */; };
 		A0F6B93E1F6E6EBB00220625 /* XMLFeedParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F6B8281F6E6E9600220625 /* XMLFeedParser.swift */; };
 		A0F6B93F1F6E6EBB00220625 /* XMLFeedType.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F6B8291F6E6E9600220625 /* XMLFeedType.swift */; };
 		A0F6B9401F6E6EBB00220625 /* DateSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F6B7C21F6E6E9600220625 /* DateSpec.swift */; };
@@ -437,7 +429,7 @@
 		A0F6B9961F6E6EBB00220625 /* FeedParserProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F6B8241F6E6E9600220625 /* FeedParserProtocol.swift */; };
 		A0F6B9971F6E6EBB00220625 /* JSONFeedParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F6B8251F6E6E9600220625 /* JSONFeedParser.swift */; };
 		A0F6B9981F6E6EBB00220625 /* ParserError.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F6B8261F6E6E9600220625 /* ParserError.swift */; };
-		A0F6B9991F6E6EBB00220625 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F6B8271F6E6E9600220625 /* Result.swift */; };
+		A0F6B9991F6E6EBB00220625 /* Feed.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F6B8271F6E6E9600220625 /* Feed.swift */; };
 		A0F6B99A1F6E6EBB00220625 /* XMLFeedParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F6B8281F6E6E9600220625 /* XMLFeedParser.swift */; };
 		A0F6B99B1F6E6EBB00220625 /* XMLFeedType.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F6B8291F6E6E9600220625 /* XMLFeedType.swift */; };
 		A0F6B99C1F6E6F7900220625 /* FeedKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0EF4E0C1CE86D1E00C52142 /* FeedKit.framework */; };
@@ -493,6 +485,12 @@
 		CD1BEE931FE4250300E624F6 /* CalNamespace.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1BEE911FE4250300E624F6 /* CalNamespace.swift */; };
 		CD1BEE941FE4250300E624F6 /* CalNamespace.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1BEE911FE4250300E624F6 /* CalNamespace.swift */; };
 		CD1BEE951FE4250300E624F6 /* CalNamespace.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1BEE911FE4250300E624F6 /* CalNamespace.swift */; };
+		BB394B79223B362300366193 /* Ampersand.xml in Resources */ = {isa = PBXBuildFile; fileRef = BB394B77223B35D700366193 /* Ampersand.xml */; };
+		BB394B7A223B362400366193 /* Ampersand.xml in Resources */ = {isa = PBXBuildFile; fileRef = BB394B77223B35D700366193 /* Ampersand.xml */; };
+		BB394B7B223B362400366193 /* Ampersand.xml in Resources */ = {isa = PBXBuildFile; fileRef = BB394B77223B35D700366193 /* Ampersand.xml */; };
+		BB394B7D223B368C00366193 /* AmpersandTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB394B7C223B368C00366193 /* AmpersandTests.swift */; };
+		BB394B7E223B368C00366193 /* AmpersandTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB394B7C223B368C00366193 /* AmpersandTests.swift */; };
+		BB394B7F223B368C00366193 /* AmpersandTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB394B7C223B368C00366193 /* AmpersandTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -577,11 +575,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		83E693591FB3B3AD009A91C4 /* Data + toUtf8.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Data + toUtf8.swift"; sourceTree = "<group>"; };
 		A01F679A1D1691510038910F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A01F679C1D16922D0038910F /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = ViewController.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		A0370EB91CEF9D5A009583A3 /* FeedKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FeedKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A081C41821C14B04001BC29C /* Date + codingStrategy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date + codingStrategy.swift"; sourceTree = "<group>"; };
 		A09AFB2E1EEFDFF40076ACC7 /* AtomTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AtomTests.swift; sourceTree = "<group>"; };
 		A09AFB2F1EEFDFF40076ACC7 /* BaseTestCase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseTestCase.swift; sourceTree = "<group>"; };
 		A09AFB301EEFDFF40076ACC7 /* ContentTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentTests.swift; sourceTree = "<group>"; };
@@ -707,7 +703,7 @@
 		A0F6B8241F6E6E9600220625 /* FeedParserProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedParserProtocol.swift; sourceTree = "<group>"; };
 		A0F6B8251F6E6E9600220625 /* JSONFeedParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONFeedParser.swift; sourceTree = "<group>"; };
 		A0F6B8261F6E6E9600220625 /* ParserError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParserError.swift; sourceTree = "<group>"; };
-		A0F6B8271F6E6E9600220625 /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		A0F6B8271F6E6E9600220625 /* Feed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Feed.swift; sourceTree = "<group>"; };
 		A0F6B8281F6E6E9600220625 /* XMLFeedParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMLFeedParser.swift; sourceTree = "<group>"; };
 		A0F6B8291F6E6E9600220625 /* XMLFeedType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMLFeedType.swift; sourceTree = "<group>"; };
 		A0F6B82A1F6E6E9600220625 /* FeedKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FeedKit.h; sourceTree = "<group>"; };
@@ -730,6 +726,8 @@
 		A0F6B9BE1F6E6FC700220625 /* FeedTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedTableViewController.swift; sourceTree = "<group>"; };
 		A0F79FBC1F642AE2007CFC08 /* RDFTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RDFTests.swift; sourceTree = "<group>"; };
 		CD1BEE911FE4250300E624F6 /* CalNamespace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalNamespace.swift; sourceTree = "<group>"; };
+		BB394B77223B35D700366193 /* Ampersand.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Ampersand.xml; sourceTree = "<group>"; };
+		BB394B7C223B368C00366193 /* AmpersandTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AmpersandTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -830,6 +828,7 @@
 				A0F79FBC1F642AE2007CFC08 /* RDFTests.swift */,
 				A09AFB381EEFDFF40076ACC7 /* RSS2Tests.swift */,
 				A09AFB391EEFDFF40076ACC7 /* SyndicationTests.swift */,
+				BB394B7C223B368C00366193 /* AmpersandTests.swift */,
 				A0C788BE20CC5606005C2F6F /* FeedUriSchemeSanitizerTests.swift */,
 				A09AFB5E1EEFE0060076ACC7 /* Info.plist */,
 			);
@@ -937,8 +936,6 @@
 		A0F6B7C61F6E6E9600220625 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				A081C41821C14B04001BC29C /* Date + codingStrategy.swift */,
-				83E693591FB3B3AD009A91C4 /* Data + toUtf8.swift */,
 				A0F6B7C71F6E6E9600220625 /* Array + Equatable.swift */,
 				A0F6B7C81F6E6E9600220625 /* String + toBool.swift */,
 				A0F6B7C91F6E6E9600220625 /* String + toDate.swift */,
@@ -1112,7 +1109,7 @@
 				A0F6B8241F6E6E9600220625 /* FeedParserProtocol.swift */,
 				A0F6B8251F6E6E9600220625 /* JSONFeedParser.swift */,
 				A0F6B8261F6E6E9600220625 /* ParserError.swift */,
-				A0F6B8271F6E6E9600220625 /* Result.swift */,
+				A0F6B8271F6E6E9600220625 /* Feed.swift */,
 				A0F6B8281F6E6E9600220625 /* XMLFeedParser.swift */,
 				A0F6B8291F6E6E9600220625 /* XMLFeedType.swift */,
 			);
@@ -1130,6 +1127,7 @@
 		A0F6B9AD1F6E6FA700220625 /* xml */ = {
 			isa = PBXGroup;
 			children = (
+				BB394B77223B35D700366193 /* Ampersand.xml */,
 				A0F6B9AE1F6E6FA700220625 /* Atom.xml */,
 				A0F6B9AF1F6E6FA700220625 /* AtomMedia.xml */,
 				A0F6B9B01F6E6FA700220625 /* Content.xml */,
@@ -1395,54 +1393,57 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
-				LastUpgradeCheck = 0930;
+				LastUpgradeCheck = 1140;
 				TargetAttributes = {
 					A0370EB81CEF9D5A009583A3 = {
 						CreatedOnToolsVersion = 7.3.1;
-						LastSwiftMigration = "";
+						LastSwiftMigration = 1140;
 					};
 					A09C84FD1CE9AE2300D20CAB = {
 						CreatedOnToolsVersion = 7.3.1;
-						LastSwiftMigration = "";
+						LastSwiftMigration = 1140;
 					};
 					A09C850C1CE9AE4F00D20CAB = {
 						CreatedOnToolsVersion = 7.3.1;
-						LastSwiftMigration = "";
+						LastSwiftMigration = 1140;
+						ProvisioningStyle = Manual;
 					};
 					A09C851B1CE9AE6A00D20CAB = {
 						CreatedOnToolsVersion = 7.3.1;
-						LastSwiftMigration = "";
+						LastSwiftMigration = 1140;
 					};
 					A0EF4DAB1CE869AD00C52142 = {
 						CreatedOnToolsVersion = 7.3.1;
-						LastSwiftMigration = 1010;
+						LastSwiftMigration = 1100;
+						ProvisioningStyle = Manual;
 					};
 					A0EF4DC11CE86A0600C52142 = {
 						CreatedOnToolsVersion = 7.3.1;
-						LastSwiftMigration = 1010;
+						LastSwiftMigration = 1140;
+						ProvisioningStyle = Manual;
 					};
 					A0EF4DD41CE86A7700C52142 = {
 						CreatedOnToolsVersion = 7.3.1;
-						LastSwiftMigration = "";
+						LastSwiftMigration = 1140;
 					};
 					A0EF4DE71CE86C3800C52142 = {
 						CreatedOnToolsVersion = 7.3.1;
-						LastSwiftMigration = "";
+						LastSwiftMigration = 1140;
 					};
 					A0EF4DF91CE86CA200C52142 = {
 						CreatedOnToolsVersion = 7.3.1;
-						LastSwiftMigration = "";
+						LastSwiftMigration = 1140;
 					};
 					A0EF4E0B1CE86D1E00C52142 = {
 						CreatedOnToolsVersion = 7.3.1;
-						LastSwiftMigration = "";
+						LastSwiftMigration = 1030;
 						ProvisioningStyle = Manual;
 					};
 				};
 			};
 			buildConfigurationList = A0EF4D971CE867DF00C52142 /* Build configuration list for PBXProject "FeedKit" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
@@ -1486,6 +1487,7 @@
 				A0F6B9D81F6E713F00220625 /* FeedNotFound.xml in Resources */,
 				A0F6B9D91F6E713F00220625 /* iTunesPodcasting.xml in Resources */,
 				A0F6B9DE1F6E713F00220625 /* RSSMedia.xml in Resources */,
+				BB394B79223B362300366193 /* Ampersand.xml in Resources */,
 				A0F6B9D71F6E713F00220625 /* Content.xml in Resources */,
 				A0F6B9D51F6E713F00220625 /* Atom.xml in Resources */,
 				A0F6B9E01F6E714400220625 /* feed.json in Resources */,
@@ -1505,6 +1507,7 @@
 				A0F6B9CD1F6E713F00220625 /* FeedNotFound.xml in Resources */,
 				A0F6B9CE1F6E713F00220625 /* iTunesPodcasting.xml in Resources */,
 				A0F6B9D31F6E713F00220625 /* RSSMedia.xml in Resources */,
+				BB394B7A223B362400366193 /* Ampersand.xml in Resources */,
 				A0F6B9CC1F6E713F00220625 /* Content.xml in Resources */,
 				A0F6B9CA1F6E713F00220625 /* Atom.xml in Resources */,
 				A0F6B9E11F6E714400220625 /* feed.json in Resources */,
@@ -1524,6 +1527,7 @@
 				A0F6B9C21F6E713E00220625 /* FeedNotFound.xml in Resources */,
 				A0F6B9C31F6E713E00220625 /* iTunesPodcasting.xml in Resources */,
 				A0F6B9C81F6E713F00220625 /* RSSMedia.xml in Resources */,
+				BB394B7B223B362400366193 /* Ampersand.xml in Resources */,
 				A0F6B9C11F6E713E00220625 /* Content.xml in Resources */,
 				A0F6B9BF1F6E713E00220625 /* Atom.xml in Resources */,
 				A0F6B9E21F6E714400220625 /* feed.json in Resources */,
@@ -1590,7 +1594,6 @@
 				A0F6B8561F6E6EB800220625 /* MediaCredit.swift in Sources */,
 				A0F6B8511F6E6EB800220625 /* iTunesSubCategory.swift in Sources */,
 				A0F6B8301F6E6EB800220625 /* Array + Equatable.swift in Sources */,
-				83E6935D1FB3B3B6009A91C4 /* Data + toUtf8.swift in Sources */,
 				A0F6B83E1F6E6EB800220625 /* AtomFeedEntryContributor.swift in Sources */,
 				A0F6B8591F6E6EB800220625 /* MediaGroup.swift in Sources */,
 				A0F6B85C1F6E6EB800220625 /* MediaLocation.swift in Sources */,
@@ -1626,13 +1629,12 @@
 				A0F6B8551F6E6EB800220625 /* MediaCopyright.swift in Sources */,
 				A0F6B85E1F6E6EB800220625 /* MediaParam.swift in Sources */,
 				A0F6B87C1F6E6EB800220625 /* RSSFeedSkipDay.swift in Sources */,
-				A0F6B8851F6E6EB800220625 /* Result.swift in Sources */,
+				A0F6B8851F6E6EB800220625 /* Feed.swift in Sources */,
 				A0F6B85B1F6E6EB800220625 /* MediaLicence.swift in Sources */,
 				A0F6B8771F6E6EB800220625 /* RSSFeedItem.swift in Sources */,
 				A0F6B8691F6E6EB800220625 /* MediaSubTitle.swift in Sources */,
 				A0F6B8411F6E6EB800220625 /* AtomFeedEntrySummary.swift in Sources */,
 				A0F6B8601F6E6EB800220625 /* MediaPlayer.swift in Sources */,
-				A081C41C21C14B1E001BC29C /* Date + codingStrategy.swift in Sources */,
 				A0F6B8371F6E6EB800220625 /* AtomFeedAuthor.swift in Sources */,
 				A0F6B8361F6E6EB800220625 /* AtomFeed.swift in Sources */,
 				A0F6B8451F6E6EB800220625 /* AtomPath.swift in Sources */,
@@ -1691,6 +1693,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A09AFB3D1EEFDFF40076ACC7 /* BaseTestCase.swift in Sources */,
+				BB394B7D223B368C00366193 /* AmpersandTests.swift in Sources */,
 				A09AFB5B1EEFDFF40076ACC7 /* SyndicationTests.swift in Sources */,
 				A09AFB581EEFDFF40076ACC7 /* RSS2Tests.swift in Sources */,
 				A09AFB551EEFDFF40076ACC7 /* ParserErrorTests.swift in Sources */,
@@ -1712,6 +1715,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A09AFB3E1EEFDFF40076ACC7 /* BaseTestCase.swift in Sources */,
+				BB394B7E223B368C00366193 /* AmpersandTests.swift in Sources */,
 				A09AFB5C1EEFDFF40076ACC7 /* SyndicationTests.swift in Sources */,
 				A09AFB591EEFDFF40076ACC7 /* RSS2Tests.swift in Sources */,
 				A09AFB561EEFDFF40076ACC7 /* ParserErrorTests.swift in Sources */,
@@ -1733,6 +1737,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A09AFB3F1EEFDFF40076ACC7 /* BaseTestCase.swift in Sources */,
+				BB394B7F223B368C00366193 /* AmpersandTests.swift in Sources */,
 				A09AFB5D1EEFDFF40076ACC7 /* SyndicationTests.swift in Sources */,
 				A09AFB5A1EEFDFF40076ACC7 /* RSS2Tests.swift in Sources */,
 				A09AFB571EEFDFF40076ACC7 /* ParserErrorTests.swift in Sources */,
@@ -1786,7 +1791,6 @@
 				A0F6B90E1F6E6EBB00220625 /* MediaCredit.swift in Sources */,
 				A0F6B9091F6E6EBB00220625 /* iTunesSubCategory.swift in Sources */,
 				A0F6B8E81F6E6EBA00220625 /* Array + Equatable.swift in Sources */,
-				83E6935B1FB3B3B5009A91C4 /* Data + toUtf8.swift in Sources */,
 				A0F6B8F61F6E6EBB00220625 /* AtomFeedEntryContributor.swift in Sources */,
 				A0F6B9111F6E6EBB00220625 /* MediaGroup.swift in Sources */,
 				A0F6B9141F6E6EBB00220625 /* MediaLocation.swift in Sources */,
@@ -1822,13 +1826,12 @@
 				A0F6B90D1F6E6EBB00220625 /* MediaCopyright.swift in Sources */,
 				A0F6B9161F6E6EBB00220625 /* MediaParam.swift in Sources */,
 				A0F6B9341F6E6EBB00220625 /* RSSFeedSkipDay.swift in Sources */,
-				A0F6B93D1F6E6EBB00220625 /* Result.swift in Sources */,
+				A0F6B93D1F6E6EBB00220625 /* Feed.swift in Sources */,
 				A0F6B9131F6E6EBB00220625 /* MediaLicence.swift in Sources */,
 				A0F6B92F1F6E6EBB00220625 /* RSSFeedItem.swift in Sources */,
 				A0F6B9211F6E6EBB00220625 /* MediaSubTitle.swift in Sources */,
 				A0F6B8F91F6E6EBB00220625 /* AtomFeedEntrySummary.swift in Sources */,
 				A0F6B9181F6E6EBB00220625 /* MediaPlayer.swift in Sources */,
-				A081C41A21C14B1E001BC29C /* Date + codingStrategy.swift in Sources */,
 				A0F6B8EF1F6E6EBA00220625 /* AtomFeedAuthor.swift in Sources */,
 				A0F6B8EE1F6E6EBA00220625 /* AtomFeed.swift in Sources */,
 				A0F6B8FD1F6E6EBB00220625 /* AtomPath.swift in Sources */,
@@ -1889,7 +1892,6 @@
 				A0F6B8B21F6E6EBA00220625 /* MediaCredit.swift in Sources */,
 				A0F6B8AD1F6E6EBA00220625 /* iTunesSubCategory.swift in Sources */,
 				A0F6B88C1F6E6EBA00220625 /* Array + Equatable.swift in Sources */,
-				83E6935C1FB3B3B5009A91C4 /* Data + toUtf8.swift in Sources */,
 				A0F6B89A1F6E6EBA00220625 /* AtomFeedEntryContributor.swift in Sources */,
 				A0F6B8B51F6E6EBA00220625 /* MediaGroup.swift in Sources */,
 				A0F6B8B81F6E6EBA00220625 /* MediaLocation.swift in Sources */,
@@ -1925,13 +1927,12 @@
 				A0F6B8B11F6E6EBA00220625 /* MediaCopyright.swift in Sources */,
 				A0F6B8BA1F6E6EBA00220625 /* MediaParam.swift in Sources */,
 				A0F6B8D81F6E6EBA00220625 /* RSSFeedSkipDay.swift in Sources */,
-				A0F6B8E11F6E6EBA00220625 /* Result.swift in Sources */,
+				A0F6B8E11F6E6EBA00220625 /* Feed.swift in Sources */,
 				A0F6B8B71F6E6EBA00220625 /* MediaLicence.swift in Sources */,
 				A0F6B8D31F6E6EBA00220625 /* RSSFeedItem.swift in Sources */,
 				A0F6B8C51F6E6EBA00220625 /* MediaSubTitle.swift in Sources */,
 				A0F6B89D1F6E6EBA00220625 /* AtomFeedEntrySummary.swift in Sources */,
 				A0F6B8BC1F6E6EBA00220625 /* MediaPlayer.swift in Sources */,
-				A081C41B21C14B1E001BC29C /* Date + codingStrategy.swift in Sources */,
 				A0F6B8931F6E6EBA00220625 /* AtomFeedAuthor.swift in Sources */,
 				A0F6B8921F6E6EBA00220625 /* AtomFeed.swift in Sources */,
 				A0F6B8A11F6E6EBA00220625 /* AtomPath.swift in Sources */,
@@ -1992,7 +1993,6 @@
 				A0F6B96A1F6E6EBB00220625 /* MediaCredit.swift in Sources */,
 				A0F6B9651F6E6EBB00220625 /* iTunesSubCategory.swift in Sources */,
 				A0F6B9441F6E6EBB00220625 /* Array + Equatable.swift in Sources */,
-				83E6935A1FB3B3AE009A91C4 /* Data + toUtf8.swift in Sources */,
 				A0F6B9521F6E6EBB00220625 /* AtomFeedEntryContributor.swift in Sources */,
 				A0F6B96D1F6E6EBB00220625 /* MediaGroup.swift in Sources */,
 				A0F6B9701F6E6EBB00220625 /* MediaLocation.swift in Sources */,
@@ -2028,13 +2028,12 @@
 				A0F6B9691F6E6EBB00220625 /* MediaCopyright.swift in Sources */,
 				A0F6B9721F6E6EBB00220625 /* MediaParam.swift in Sources */,
 				A0F6B9901F6E6EBB00220625 /* RSSFeedSkipDay.swift in Sources */,
-				A0F6B9991F6E6EBB00220625 /* Result.swift in Sources */,
+				A0F6B9991F6E6EBB00220625 /* Feed.swift in Sources */,
 				A0F6B96F1F6E6EBB00220625 /* MediaLicence.swift in Sources */,
 				A0F6B98B1F6E6EBB00220625 /* RSSFeedItem.swift in Sources */,
 				A0F6B97D1F6E6EBB00220625 /* MediaSubTitle.swift in Sources */,
 				A0F6B9551F6E6EBB00220625 /* AtomFeedEntrySummary.swift in Sources */,
 				A0F6B9741F6E6EBB00220625 /* MediaPlayer.swift in Sources */,
-				A081C41921C14B04001BC29C /* Date + codingStrategy.swift in Sources */,
 				A0F6B94B1F6E6EBB00220625 /* AtomFeedAuthor.swift in Sources */,
 				A0F6B94A1F6E6EBB00220625 /* AtomFeed.swift in Sources */,
 				A0F6B9591F6E6EBB00220625 /* AtomPath.swift in Sources */,
@@ -2197,6 +2196,7 @@
 				INFOPLIST_FILE = Sources/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MARKETING_VERSION = 9.1.2;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.feedkit.FeedKit-watchOS";
@@ -2204,12 +2204,12 @@
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
-				TVOS_DEPLOYMENT_TARGET = 9.0;
+				TVOS_DEPLOYMENT_TARGET = 10.0;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
-				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+				WATCHOS_DEPLOYMENT_TARGET = 3.0;
 			};
 			name = Debug;
 		};
@@ -2253,18 +2253,19 @@
 				INFOPLIST_FILE = Sources/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MARKETING_VERSION = 9.1.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.feedkit.FeedKit-watchOS";
 				PRODUCT_NAME = FeedKit;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
-				TVOS_DEPLOYMENT_TARGET = 9.0;
+				TVOS_DEPLOYMENT_TARGET = 10.0;
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
-				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+				WATCHOS_DEPLOYMENT_TARGET = 3.0;
 			};
 			name = Release;
 		};
@@ -2288,6 +2289,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -2307,7 +2309,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				INFOPLIST_FILE = Tests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -2315,7 +2317,9 @@
 				PRODUCT_NAME = "FeedKit iOS Tests";
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
+				TVOS_DEPLOYMENT_TARGET = 10.0;
+				WATCHOS_DEPLOYMENT_TARGET = 3.0;
 			};
 			name = Debug;
 		};
@@ -2339,6 +2343,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -2352,14 +2357,16 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				INFOPLIST_FILE = Tests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.feedkit.FeedKit-iOS-Tests";
 				PRODUCT_NAME = "FeedKit iOS Tests";
 				SDKROOT = iphoneos;
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
+				TVOS_DEPLOYMENT_TARGET = 10.0;
 				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 3.0;
 			};
 			name = Release;
 		};
@@ -2382,8 +2389,11 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Manual;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -2406,10 +2416,12 @@
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.feedkit.FeedKit-tvOS-Tests";
 				PRODUCT_NAME = "FeedKit tvOS Tests";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = appletvos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.2;
-				TVOS_DEPLOYMENT_TARGET = 9.2;
+				SWIFT_VERSION = 5.0;
+				TVOS_DEPLOYMENT_TARGET = 10.0;
+				WATCHOS_DEPLOYMENT_TARGET = 3.0;
 			};
 			name = Debug;
 		};
@@ -2432,8 +2444,11 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Manual;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = "";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -2449,10 +2464,12 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.feedkit.FeedKit-tvOS-Tests";
 				PRODUCT_NAME = "FeedKit tvOS Tests";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = appletvos;
-				SWIFT_VERSION = 4.2;
-				TVOS_DEPLOYMENT_TARGET = 9.2;
+				SWIFT_VERSION = 5.0;
+				TVOS_DEPLOYMENT_TARGET = 10.0;
 				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 3.0;
 			};
 			name = Release;
 		};
@@ -2497,14 +2514,16 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.feedkit.FeedKit-macOS-Tests";
 				PRODUCT_NAME = "FeedKit macOS Tests";
 				SDKROOT = macosx;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
+				TVOS_DEPLOYMENT_TARGET = 10.0;
+				WATCHOS_DEPLOYMENT_TARGET = 3.0;
 			};
 			name = Debug;
 		};
@@ -2543,18 +2562,21 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.feedkit.FeedKit-macOS-Tests";
 				PRODUCT_NAME = "FeedKit macOS Tests";
 				SDKROOT = macosx;
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
+				TVOS_DEPLOYMENT_TARGET = 10.0;
+				WATCHOS_DEPLOYMENT_TARGET = 3.0;
 			};
 			name = Release;
 		};
 		A0AA54801D02EACF000A2264 /* Release Test */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
@@ -2580,8 +2602,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 			};
 			name = "Release Test";
@@ -2591,6 +2613,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				APPLICATION_EXTENSION_API_ONLY = YES;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -2626,18 +2649,21 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				INFOPLIST_FILE = Sources/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MARKETING_VERSION = 9.1.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.feedkit.FeedKit-iOS";
 				PRODUCT_NAME = FeedKit;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				TVOS_DEPLOYMENT_TARGET = 10.0;
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 3.0;
 			};
 			name = "Release Test";
 		};
@@ -2682,17 +2708,19 @@
 				INFOPLIST_FILE = Sources/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MARKETING_VERSION = 9.1.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.feedkit.FeedKit-tvOS";
 				PRODUCT_NAME = FeedKit;
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 3;
-				TVOS_DEPLOYMENT_TARGET = 9.0;
+				TVOS_DEPLOYMENT_TARGET = 10.0;
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 3.0;
 			};
 			name = "Release Test";
 		};
@@ -2739,15 +2767,18 @@
 				INFOPLIST_FILE = Sources/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MARKETING_VERSION = 9.1.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.feedkit.FeedKit-macOS";
 				PRODUCT_NAME = FeedKit;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
+				TVOS_DEPLOYMENT_TARGET = 10.0;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 3.0;
 			};
 			name = "Release Test";
 		};
@@ -2792,18 +2823,19 @@
 				INFOPLIST_FILE = Sources/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MARKETING_VERSION = 9.1.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.feedkit.FeedKit-watchOS";
 				PRODUCT_NAME = FeedKit;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
-				TVOS_DEPLOYMENT_TARGET = 9.0;
+				TVOS_DEPLOYMENT_TARGET = 10.0;
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
-				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+				WATCHOS_DEPLOYMENT_TARGET = 3.0;
 			};
 			name = "Release Test";
 		};
@@ -2828,8 +2860,10 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = "";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -2841,14 +2875,17 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				INFOPLIST_FILE = "Example iOS/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.feedkit.FeedKit-Example-iOS";
 				PRODUCT_NAME = "FeedKit Example iOS";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = iphoneos;
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
+				TVOS_DEPLOYMENT_TARGET = 10.0;
 				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 3.0;
 			};
 			name = "Release Test";
 		};
@@ -2873,8 +2910,10 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Manual;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = "";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -2890,11 +2929,13 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.feedkit.FeedKit-Example-tvOS";
 				PRODUCT_NAME = "FeedKit Example tvOS";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = appletvos;
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 3;
-				TVOS_DEPLOYMENT_TARGET = 9.2;
+				TVOS_DEPLOYMENT_TARGET = 10.0;
 				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 3.0;
 			};
 			name = "Release Test";
 		};
@@ -2934,12 +2975,14 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				INFOPLIST_FILE = "Example macOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.feedkit.FeedKit-Example-macOS";
 				PRODUCT_NAME = "FeedKit Example macOS";
 				SDKROOT = macosx;
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
+				TVOS_DEPLOYMENT_TARGET = 10.0;
+				WATCHOS_DEPLOYMENT_TARGET = 3.0;
 			};
 			name = "Release Test";
 		};
@@ -2963,6 +3006,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -2977,14 +3021,16 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				INFOPLIST_FILE = Tests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.feedkit.FeedKit-iOS-Tests";
 				PRODUCT_NAME = "FeedKit iOS Tests";
 				SDKROOT = iphoneos;
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
+				TVOS_DEPLOYMENT_TARGET = 10.0;
 				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 3.0;
 			};
 			name = "Release Test";
 		};
@@ -3007,8 +3053,11 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Manual;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = "";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -3025,10 +3074,12 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.feedkit.FeedKit-tvOS-Tests";
 				PRODUCT_NAME = "FeedKit tvOS Tests";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = appletvos;
-				SWIFT_VERSION = 4.2;
-				TVOS_DEPLOYMENT_TARGET = 9.2;
+				SWIFT_VERSION = 5.0;
+				TVOS_DEPLOYMENT_TARGET = 10.0;
 				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 3.0;
 			};
 			name = "Release Test";
 		};
@@ -3068,18 +3119,21 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.feedkit.FeedKit-macOS-Tests";
 				PRODUCT_NAME = "FeedKit macOS Tests";
 				SDKROOT = macosx;
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
+				TVOS_DEPLOYMENT_TARGET = 10.0;
+				WATCHOS_DEPLOYMENT_TARGET = 3.0;
 			};
 			name = "Release Test";
 		};
 		A0EF4D981CE867DF00C52142 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
@@ -3106,8 +3160,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				ONLY_ACTIVE_ARCH = YES;
 			};
 			name = Debug;
@@ -3115,6 +3169,7 @@
 		A0EF4D991CE867DF00C52142 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
@@ -3140,8 +3195,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 			};
 			name = Release;
@@ -3167,8 +3222,10 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -3186,15 +3243,18 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				INFOPLIST_FILE = "Example iOS/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.feedkit.FeedKit-Example-iOS";
 				PRODUCT_NAME = "FeedKit Example iOS";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
+				TVOS_DEPLOYMENT_TARGET = 10.0;
+				WATCHOS_DEPLOYMENT_TARGET = 3.0;
 			};
 			name = Debug;
 		};
@@ -3219,8 +3279,10 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = "";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -3232,14 +3294,17 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				INFOPLIST_FILE = "Example iOS/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.feedkit.FeedKit-Example-iOS";
 				PRODUCT_NAME = "FeedKit Example iOS";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = iphoneos;
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
+				TVOS_DEPLOYMENT_TARGET = 10.0;
 				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 3.0;
 			};
 			name = Release;
 		};
@@ -3264,8 +3329,10 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Manual;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -3288,11 +3355,13 @@
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.feedkit.FeedKit-Example-tvOS";
 				PRODUCT_NAME = "FeedKit Example tvOS";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = appletvos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 3;
-				TVOS_DEPLOYMENT_TARGET = 9.2;
+				TVOS_DEPLOYMENT_TARGET = 10.0;
+				WATCHOS_DEPLOYMENT_TARGET = 3.0;
 			};
 			name = Debug;
 		};
@@ -3317,8 +3386,10 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Manual;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = "";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -3334,11 +3405,13 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.feedkit.FeedKit-Example-tvOS";
 				PRODUCT_NAME = "FeedKit Example tvOS";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = appletvos;
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 3;
-				TVOS_DEPLOYMENT_TARGET = 9.2;
+				TVOS_DEPLOYMENT_TARGET = 10.0;
 				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 3.0;
 			};
 			name = Release;
 		};
@@ -3384,14 +3457,16 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				INFOPLIST_FILE = "Example macOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.feedkit.FeedKit-Example-macOS";
 				PRODUCT_NAME = "FeedKit Example macOS";
 				SDKROOT = macosx;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
+				TVOS_DEPLOYMENT_TARGET = 10.0;
+				WATCHOS_DEPLOYMENT_TARGET = 3.0;
 			};
 			name = Debug;
 		};
@@ -3431,12 +3506,14 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				INFOPLIST_FILE = "Example macOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.feedkit.FeedKit-Example-macOS";
 				PRODUCT_NAME = "FeedKit Example macOS";
 				SDKROOT = macosx;
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
+				TVOS_DEPLOYMENT_TARGET = 10.0;
+				WATCHOS_DEPLOYMENT_TARGET = 3.0;
 			};
 			name = Release;
 		};
@@ -3486,6 +3563,7 @@
 				INFOPLIST_FILE = Sources/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MARKETING_VERSION = 9.1.2;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.feedkit.FeedKit-tvOS";
@@ -3493,11 +3571,12 @@
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 3;
-				TVOS_DEPLOYMENT_TARGET = 9.0;
+				TVOS_DEPLOYMENT_TARGET = 10.0;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 3.0;
 			};
 			name = Debug;
 		};
@@ -3541,17 +3620,19 @@
 				INFOPLIST_FILE = Sources/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MARKETING_VERSION = 9.1.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.feedkit.FeedKit-tvOS";
 				PRODUCT_NAME = FeedKit;
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 3;
-				TVOS_DEPLOYMENT_TARGET = 9.0;
+				TVOS_DEPLOYMENT_TARGET = 10.0;
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 3.0;
 			};
 			name = Release;
 		};
@@ -3603,7 +3684,8 @@
 				INFOPLIST_FILE = Sources/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MARKETING_VERSION = 9.1.2;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.feedkit.FeedKit-macOS";
@@ -3611,9 +3693,11 @@
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
+				TVOS_DEPLOYMENT_TARGET = 10.0;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 3.0;
 			};
 			name = Debug;
 		};
@@ -3659,15 +3743,18 @@
 				INFOPLIST_FILE = Sources/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MARKETING_VERSION = 9.1.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.feedkit.FeedKit-macOS";
 				PRODUCT_NAME = FeedKit;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
+				TVOS_DEPLOYMENT_TARGET = 10.0;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 3.0;
 			};
 			name = Release;
 		};
@@ -3676,6 +3763,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				APPLICATION_EXTENSION_API_ONLY = YES;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -3716,8 +3804,9 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				INFOPLIST_FILE = Sources/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MARKETING_VERSION = 9.1.2;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.feedkit.FeedKit-iOS";
@@ -3725,10 +3814,12 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				TVOS_DEPLOYMENT_TARGET = 10.0;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 3.0;
 			};
 			name = Debug;
 		};
@@ -3737,6 +3828,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				APPLICATION_EXTENSION_API_ONLY = YES;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -3771,18 +3863,21 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				INFOPLIST_FILE = Sources/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MARKETING_VERSION = 9.1.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.feedkit.FeedKit-iOS";
 				PRODUCT_NAME = FeedKit;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				TVOS_DEPLOYMENT_TARGET = 10.0;
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 3.0;
 			};
 			name = Release;
 		};
