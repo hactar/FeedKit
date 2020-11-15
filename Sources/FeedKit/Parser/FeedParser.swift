@@ -76,7 +76,7 @@ public class FeedParser {
             do {
                 data = try Data(contentsOf: sanitizedSchemeUrl)
             } catch {
-                return Result.failure(error as! NSError)
+                return .failure(.internalError(reason: error.localizedDescription))
             }
         }
         
@@ -84,7 +84,7 @@ public class FeedParser {
 
             
             guard let feedDataType = FeedDataType(data: data) else {
-                return Result.failure(ParserError.feedNotFound.value)
+                return .failure(.feedNotFound)
             }
             
             switch feedDataType {
