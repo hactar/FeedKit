@@ -144,10 +144,7 @@ extension XMLFeedParser {
         attributes attributeDict: [String : String])
     {
         
-        var fixedElementName = elementName
-        #if os(Linux)
-            fixedElementName = elementName.components(separatedBy: ":").reversed().joined(separator: ":")
-        #endif
+        let fixedElementName = elementName
         // Update the current path along the XML's DOM elements by appending the new component with `elementName`.
         self.currentXMLDOMPath = self.currentXMLDOMPath.appendingPathComponent(fixedElementName)
         
